@@ -1,9 +1,9 @@
 #include<stdio.h>
- 
+#include<math.h> 
 int main() 
 {
    int a[30], i, num, smallest;
- 
+   printf("enter the numbers");
    printf("\nEnter no of elements :");
    scanf("%d", &num);
  
@@ -19,7 +19,5 @@ int main()
          smallest = a[i];
       }
    }
- 
-  printf("enter teh values");
   return (0);
 }
