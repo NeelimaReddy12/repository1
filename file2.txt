@@ -1,4 +1,4 @@
-Program to find the largest number in ytheb array
+Program to find the largest number in ytheb arraiy
 #include <stdio.h>
 int main() {
   int n;
@@ -9,6 +9,7 @@ int main() {
   for (int i = 0; i < n; ++i) {
     printf("Enter number%d: ", i + 1);
     scanf("%lf", &arr[i]);
+    printf("enter the numbers");
   }
 
   // storing the largest number to arr[0]
@@ -17,6 +18,6 @@ int main() {
       arr[0] = arr[i];
     }
   }
-
+ return 0;
   
 }
